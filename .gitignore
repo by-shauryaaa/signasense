@@ -1,0 +1,114 @@
+# ==============================================================================
+# SignaSense .gitignore
+# ==============================================================================
+
+# OS & Filesystem
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# Xcode & Apple / iOS
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xcuserdatad
+*.xcuserstate
+*.xcscmblueprint
+project.xcworkspace/xcuserdata/
+project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+*.xccheckout
+*.moved-builder
+DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.app
+
+# Swift Package Manager
+.build/
+Packages/
+Package.pins
+Package.resolved
+.swiftpm/xcode
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Machine Learning - Large Datasets & Model Training Checkpoints
+*.npy
+*.npz
+data/raw/
+data/processed/
+ml_model/data/raw/
+ml_model/data/processed/
+models/checkpoints/
+ml_model/models/checkpoints/
+*.h5
+*.keras
+
+# Keep Pretrained Models Tracked
+!ml_model/models/pretrained/**
+
+# Test and Coverage Artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.cover
+*.pyre/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+*.env
+*.pem
+*.key
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
